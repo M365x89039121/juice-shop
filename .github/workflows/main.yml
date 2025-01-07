@@ -13,8 +13,8 @@ jobs:
     - name: 'Az CLI login'
       uses: azure/login@v2
       with:
-          client-id: ac2bb01c-e3f1-4c6e-b613-7138634789a1
-          tenant-id: 4cfe372a-37a4-44f8-91b2-5faf34253c62
+          client-id: 58266b52-423f-436c-9ba6-e2024559c703
+          tenant-id: 7bf7ca02-20a6-4cc7-a35d-8fa9c5fd4529
           allow-no-subscriptions: true
   
     - name: 'Run Azure CLI commands'
